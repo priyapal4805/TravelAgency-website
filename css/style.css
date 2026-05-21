@@ -410,3 +410,37 @@ margin-right: 50px;
         padding-top: 290px;
     }
 }
+@media screen and (max-width: 768px){
+
+    .navbar{
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .nav-list{
+
+        width: 100%;
+
+        justify-content: center;
+
+        gap: 15px;
+
+        flex-wrap: wrap;
+    }
+
+    .rightNav{
+
+        width: 100%;
+
+        text-align: center;
+
+        margin-top: 10px;
+    }
+
+    .about-section{
+
+        padding-top: 40px;
+    }
+}
