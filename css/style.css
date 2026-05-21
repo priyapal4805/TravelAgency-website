@@ -325,66 +325,29 @@ margin-right: 50px;
     }
 
     .nav-list{
-        flex-direction: column;
 
         width: 100%;
 
-        gap: 20px;
+        display: flex;
 
-        text-align: center;
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 20px;
+    }
+
+    .nav-list li{
+
+        padding: 10px;
     }
 
     .rightNav{
+
         width: 100%;
 
         text-align: center;
 
-        margin-bottom: 20px;
-    }
-
-    .text-big{
-        font-size: 40px;
-    }
-
-    .small-text{
-        font-size: 18px;
-
-        margin-left: 20px;
-
-        margin-right: 20px;
-    }
-
-    .box-container{
-        grid-template-columns: 1fr;
-    }
-
-    .service-box{
-        width: 95%;
-    }
-
-    .contact-wrapper{
-        flex-direction: column;
-
-        text-align: center;
-    }
-
-    .contact-left{
-        width: 100%;
-    }
-
-    .contact-right{
-        width: 100%;
-    }
-
-    .contact-left h1{
-        font-size: 45px;
-    }
-
-    .contact-left h2{
-        font-size: 30px;
-    }
-
-    .contact-left p{
-        font-size: 18px;
+        margin-top: 10px;
     }
 }
