@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+}
+.navbar{
+   display: flex;
+   
+}
+.nav-list{
+width: 75%;
+gap: 60px;
+display: flex;
+
+
+}
+.nav-list li  { 
+    list-style: none;
+    padding: 20px;
+   text-align: right;
+   
+}
+.nav-list li a{
+  color: azure;
+
+    
+}
+.nav-list li a:hover{
+  color: rgb(43, 184, 184);
+}
+.rightNav{
+    width: 25%;
+    
+    text-align: right;
+    padding: 20px;
+    
+}
+#search
+{
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.index-background{
+    background:rgba(0,0,0,0.7)url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+     background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 100vh;
+}
+.about-background{
+    background:rgba(0,0,0,0.7)url('../img/about.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+     background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 100vh;
+}
+.services-background{
+    background:rgba(0,0,0,0.7)url('../img/services.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+     background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 100vh;
+}
+.contact-background{
+    background:rgba(0,0,0,0.7)url('../img/contact.jpg');
+    background-size: cover;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:darken;
+
+    min-height: 100vh;
+}
+
+.firstHalf{
+     display: flex;
+    justify-content: center;
+    color: aliceblue;
+     align-items:center;
+    flex-direction:column;
+    
+}.text-big{text-align: center;
+    padding: 10px;
+     font-size: 60px;
+    font-weight: bold;
+   font-size: xx-large;
+    color: azure;
+}.small-text{text-align: center;
+      margin-top:10px;
+      font-size: 22px;
+     margin-left: 50px;
+margin-right: 50px;
+    line-height: 1.8;
+    color: azure; 
+    font-style: italic;
+}.firstSection{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+}.background2
+{min-height: 100vh;
+     background: url('../img/travelbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 80px 50px;
+}
+.dest-heading{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.box{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+
+    border-radius: 15px;
+    overflow: hidden;
+
+    transition: 0.4s;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+
+.box img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.box h2{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}.services-section{
+    padding: 30px 30px;
+}
+
+.service-heading{
+    text-align: center;
+
+    font-size: 30px;
+
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.service-box{
+    width: 80%;
+
+    margin: 30px auto;
+
+    padding: 15px;
+
+    background: rgba(255,255,255,0.1);
+
+    backdrop-filter: blur(8px);
+
+    border-radius: 20px;
+
+    color: white;
+
+    transition: 0.4s;
+}
+
+.service-box:hover{
+    transform: scale(1.03);
+}
+
+.service-box h2{
+    margin-bottom: 15px;
+
+    font-size: 25px;
+}
+
+.service-box p{
+    font-size: 20px;
+
+    line-height: 1.8;
+}
+.contact-page{
+
+    min-height: 100vh;
+
+    padding-top: 30px;
+}
+
+.contact-wrapper{
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 50px;
+}
+
+.contact-left{
+
+    width: 50%;
+
+    color: white;
+}
+
+.contact-left h1{
+
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+.contact-left h2{
+
+    font-size: 30px;
+
+    margin-top: 20px;
+}
+
+.contact-left p{
+
+    font-size: 22px;
+
+    line-height: 1.8;
+}
+
+.contact-right{
+
+    width: 380px;
+
+    padding: 40px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.contact-right input,
+.contact-right textarea{
+
+    width: 100%;
+
+    padding: 15px;
+
+    background: transparent;
+
+    border: 1px solid rgba(255,255,255,0.4);
+
+    border-radius: 10px;
+
+    color: white;
+
+    font-size: 18px;
+
+    outline: none;
+}
+
+.contact-right textarea{
+
+    height: 150px;
+
+    resize: none;
+}
+
+.contact-right input::placeholder,
+.contact-right textarea::placeholder{
+
+    color: rgba(255,255,255,0.7);
+}
+
+.contact-right button{
+
+    padding: 12px;
+
+    background: transparent;
+
+    color: white;
+
+    border: 1px solid white;
+
+    border-radius: 30px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
