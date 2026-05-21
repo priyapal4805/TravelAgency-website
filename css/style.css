@@ -405,6 +405,7 @@ margin-right: 50px;
 @media screen and (max-width: 768px){
 
     .about-section{
+         margin-top: 180px !important;
 
         padding-top: 290px;
     }
